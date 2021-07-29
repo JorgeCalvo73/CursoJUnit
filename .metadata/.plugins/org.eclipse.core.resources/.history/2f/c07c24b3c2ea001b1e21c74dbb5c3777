@@ -1,0 +1,21 @@
+package com.healthycoderapp;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class BMICalculatorTest {
+
+	@Test
+	void should_ReturnTrue_When_DietRecommended() {
+		
+		//given - Arrange
+		
+		//when - Act
+		
+		//then - Assert
+		
+		assertTrue(BMICalculator.isDietRecommended(89, 1.72));
+	}
+
+}
